@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Istighfar Widget</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#27ae60" />
+  </head>
+  <body>
+    <div id="floating-button">
+      <span id="count">0</span>
+    </div>
+
+    <div id="reward"></div>
+
+    <script src="script.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("service-worker.js")
+          .then(() => console.log("Service Worker Registered"));
+      }
+    </script>
+  </body>
+</html>

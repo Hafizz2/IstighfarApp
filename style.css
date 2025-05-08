@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  height: 100vh;
+  overflow: hidden;
+}
+body.dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+#floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #27ae60;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 9999;
+  user-select: none;
+}
+
+#floating-button:hover {
+  background-color: #2ecc71;
+}
+
+#reward {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  font-size: 14px;
+  color: #333;
+}

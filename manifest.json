@@ -1,0 +1,21 @@
+{
+  "name": "Istighfar Widget",
+  "short_name": "Istighfar",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#27ae60",
+  "description": "Floating Istighfar button with reward reminders",
+  "icons": [
+    {
+      "src": "check-box.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "check.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
